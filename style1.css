@@ -1,0 +1,27 @@
+     .header{
+        background-color: lightblue;
+     }
+     .myclass{
+         background-color: lightpink;
+         font-size: 20px;
+     }
+     #myid{
+         background-color: lightcoral;
+         font-size: 20px;
+     }
+     #myid2{
+         background-color: lightsteelblue;
+         font-size: 20px;
+     }
+     #myid1{
+         background-color: lemonchiffon;
+         font-size: 20px;
+     }
+     .buttonPre{
+        color: goldenrod;
+        background-color: black;
+        padding: 10px;
+        text-align: right;
+        text-decoration: green;
+        display: block;
+     }
