@@ -1,7 +1,25 @@
-     .header{
+     html.body{
+         background-color: blanchedalmond;
+         margin: 50;
+         padding: 50;
+     }
+     .main-content{
+         max-width: 800px;
+         margin: auto;
+     }
+     .head{
         background-color: lightblue;
      }
-     .myclass{
+     .image{
+         width: 100%;
+     }
+
+     .box1{
+         background-color: whitesmoke;
+         padding: 20px;
+         margin: 30px;
+     }
+     .namedog1{
          background-color: lightpink;
          font-size: 20px;
      }
@@ -17,11 +35,20 @@
          background-color: lemonchiffon;
          font-size: 20px;
      }
-     .buttonPre{
-        color: goldenrod;
-        background-color: black;
+     .top-header{
+         background-color: rgb(56, 55, 56);
+     }
+     .menu{
+        padding: 10px;
+        display: inline-block;
+        /*text-decoration: none;*/
+        color: whitesmoke;
         padding: 10px;
         text-align: right;
-        text-decoration: green;
-        display: block;
+     }
+     .brand{
+         color: whitesmoke;
+         font-size: 18px;
+         font-weight: 600;
+         margin: 0%;
      }
