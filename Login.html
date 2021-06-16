@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <div style="background-color: black; text-align: center; padding: 30px;">
-    <head>
-        
-            <h1 style="color: goldenrod;">Login to premuim</h1>
-    </head>
-    <body>
-        <span>
-            <!--<p style="color: white;">ID : </p>-->
-            <input type="text" id="user" name="user"><br />
-        </span>
-            
-            " "<br />
-            <input type="password" id="password" name="password">
 
-    </body>
-</div>
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btnchoose"></div>
+                <button type="button" class="btn" onclick="login()">Sign in</button>
+                <button type="button" class="btn" onclick="register()">Sign up</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="password" class="input-field" placeholder="Please confirm your password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms and conditons</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login")
+        var y = document.getElementById("register")
+        var z = document.getElementById("btnchoose")
+
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+
+</body>
+
 </html>
